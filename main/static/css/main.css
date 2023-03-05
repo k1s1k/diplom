@@ -5,260 +5,222 @@
 }
 
 .heder{
-height: 90px;
-left: 0px;
-position: absolute;
-left: 0%;
-right: 0%;
-background: #070D0F;
+	height: 90px;
+	left: 0px;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	background: #070D0F;
 }
 
 .heder-photo{
-height: 80px;
-width: 200px;
-
-position: absolute;
-left: 2%;
-right: -6%;
-top: 5%;
-bottom: 5%;
-
-font-family: 'Castoro';
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 32px;
-text-transform: uppercase;
-
-color: #9C9793;
+	height: 80px;
+	width: 200px;
+	position: absolute;
+	left: 2%;
+	right: -6%;
+	top: 5%;
+	bottom: 5%;
+	font-family: 'Castoro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #9C9793;
 }
 
 .heder-text{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 30px;
-
-position: absolute;
-width: 370px;
-height: 30px;
-left: 450px;
-top: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 30px;
+	position: absolute;
+	width: 370px;
+	height: 30px;
+	left: 450px;
+	top: 50px;
 }
 
 .heder-text1{
-width: 110px;
-height: 30px;
-
-font-family: 'Andika';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-text-transform: uppercase;
-
-color: #FFFFFF;
+	width: 110px;
+	height: 30px;
+	font-family: 'Andika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #FFFFFF;
 }
 
 .heder-text2{
-width: 113px;
-height: 30px;
-
-font-family: 'Andika';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-text-transform: uppercase;
-
-color: #FFFFFF;
+	width: 113px;
+	height: 30px;
+	font-family: 'Andika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #FFFFFF;
 }
 
 .heder-text3{
-width: 80px;
-height: 30px;
-
-font-family: 'Andika';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-text-transform: uppercase;
-
-color: #FFFFFF;
+	width: 80px;
+	height: 30px;
+	font-family: 'Andika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #FFFFFF;
 }
 
 .heder-photo1{
-width: 30px;
-height: 30px;
+	width: 30px;
+	height: 30px;
 }
 
 .heder-photo2{
-width: 30px;
-height: 30px;
+	width: 30px;
+	height: 30px;
 }
 
 .glav-photo{
-position: absolute;
-width: 1200px;
-height: 450px;
-left: 0;
-right: 0;
-bottom: 0;
-margin: auto;
-top: -34.7%;
+	position: absolute;
+	width: 1200px;
+	height: 450px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	top: -34.7%;
 }
 
 .glav-men{
-position: absolute;
-right: 50%;
-top: 580px;
-bottom: 0%;
+	position: absolute;
+	right: 50%;
+	top: 580px;
+	bottom: 0%;
 }
 .menam{
-position: absolute;
-
-font-family: 'Andika';
-font-style: normal;
-text-align: justify;
-text-transform: uppercase;
-font-weight: 800;
-font-size: 32px;
-line-height: 52px;
-color: white;
-
-left: 23vw;
-top: 125vh;
-
-background: rgba(66, 53, 46, 0.83);
-border-radius: 40px;
-padding: 1% 5%;
+	position: absolute;
+	font-family: 'Andika';
+	font-style: normal;
+	text-align: justify;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 52px;
+	color: white;
+	left: 23vw;
+	top: 125vh;
+	background: rgba(66, 53, 46, 0.83);
+	border-radius: 40px;
+	padding: 1% 5%;
 }
 
 .women{
-position: absolute;
-font-family: 'Andika';
-font-style: normal;
-text-align: justify;
-text-transform: uppercase;
-font-weight: 800;
-font-size: 32px;
-line-height: 52px;
-color: white;
-left: 57vw;
-top: 125vh;
-background: rgba(66, 53, 46, 0.83);
-border-radius: 40px;
-padding: 1% 5%;
+	position: absolute;
+	font-family: 'Andika';
+	font-style: normal;
+	text-align: justify;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 52px;
+	color: white;
+	left: 57vw;
+	top: 125vh;
+	background: rgba(66, 53, 46, 0.83);
+	border-radius: 40px;
+	padding: 1% 5%;
 }
 
-
 .glav-women{
-position: absolute;
-left: 50%;
-top: 580px;
-bottom: 0%;	
+	position: absolute;
+	left: 50%;
+	top: 580px;
+	bottom: 0%;
 }
 
 .o_nas{
 	width: 80px;
-height: 30px;
-
-font-family: 'Andika';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 39px;
-text-transform: uppercase;
-
-/* белый текст */
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+	height: 30px;
+	font-family: 'Andika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 39px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
 }
 
 .nsshi_proekti{
 	width: 180px;
-height: 30px;
-
-font-family: 'Andika';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 39px;
-text-transform: uppercase;
-
-/* белый текст */
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+	height: 30px;
+	font-family: 'Andika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 39px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
 }
 
-.polit{
-	position: absolute;
-width: 426px;
-height: 39px;
-left: 758px;
-top: 40px;
-
-font-family: 'Andika';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 39px;
-/* identical to box height */
-
-text-transform: uppercase;
-
-/* белый текст */
-
-color: #FFFFFF;
+.polit{position: absolute;
+	width: 426px;
+	height: 39px;
+	left: 758px;
+	top: 40px;
+	font-family: 'Andika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 39px;
+	/* identical to box height */
+	text-transform: uppercase;
+	color: #FFFFFF;
 }
 
 .photo-tg{
-position: absolute;
-width: 40px;
-height: 40px;
-left: 5px;
-top: 0px;
-
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 5px;
+	top: 0px;
 }
 
 .photo-inst{
-position: absolute;
-width: 40px;
-height: 40px;
-left: 50px;
-top: 0px;
-
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 50px;
+	top: 0px;
 }
 
 .photo-vk{
-position: absolute;
-width: 40px;
-height: 40px;
-left: 95px;
-top: 0px;	
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 95px;
+	top: 0px;
 }
 
 footer{
-background: fixed;
-position: absolute;
-width: 100%;
-height: 120px;
-background: #070D0F;
-bottom: -1200px;
+	background: fixed;
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	background: #070D0F;
+	bottom: -1200px;
 }
