@@ -230,3 +230,140 @@ footer{
 	background: #070D0F;
 	bottom: -1200px;
 }
+
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width: 100%;
+}
+
+.form-box{
+	position: absolute;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	width: 800px;
+	height: 600px;
+	left: calc(50% - 800px/2);
+	top: 25vh;
+	background: linear-gradient(141.98deg, #597CD5 13.01%, #6F8BAF 41.79%, #6387B1 65.02%, #4872A3 98.84%, #FFFFFF 98.85%);
+	background-blend-mode: difference;
+	box-shadow: 0px 4px 10px #708CAD;
+	border-radius: 30px;
+}
+
+.inputbox{
+	position: relative;
+	margin: 30px 0;
+	width: 310px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.inputbox label{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
+	color: #FFFFFF;
+	font-size: 1em;
+	pointer-events: none;
+	transition: .5s;
+}
+input:focus ~ label,
+input:focus ~ :valid{
+top: -5px;
+}
+
+.inputbox input{
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 1em;
+	padding: 0 35px 0 5px;
+	color: #FFFFFF;
+}
+.inputbox ion-icon{
+	position: inherit;
+	right: 8px;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	top: 20px;
+}
+
+.forget{
+	margin: -15 px 0 15px;
+	font-size: .9em;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+}
+
+.forget lable input{
+	margin-right: 3px;
+}
+
+.forget label a{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+button{
+	width: 100%;
+	height: 20px;
+	background: #FFFFFF;
+	border-radius: 35px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.register{
+	display: flex;
+	justify-content: center;
+	font-size: .9em;
+	color: #FFFFFF;
+	margin:  25px 0 10px;
+}
+
+register p a{
+	text-decoration:  none;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+.register p a:hover{
+	text-decoration: underline;
+}
+
+
+.text_1_reg_form{
+	position: absolute;
+	width: 407px;
+	height: 101px;
+	left: calc(50% - 407px/2 - 45.5px);
+	top: calc(50% - 101px/2 + 0.5px);
+	font-family: 'Bellota Text';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+
+.text_2_reg_form{
+	position: absolute;
+	width: 436px;
+	height: 99px;
+	left: calc(50% - 436px/2 - 26px);
+	top: calc(50% - 99px/2 + 142.5px);
+	font-family: 'Bellota Text';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
