@@ -3,7 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-
+/*главная страница*/
 .heder{
 	height: 90px;
 	left: 0px;
@@ -230,7 +230,7 @@ footer{
 	background: #070D0F;
 	bottom: -1200px;
 }
-
+/*ТУТ СТРАНИЧКА РЕГИСТРАЦИИ registration_page_1 */
 section{
 	display: flex;
 	justify-content: center;
@@ -377,3 +377,4 @@ register p a{
 	line-height: 25px;
 	color: #FFFFFF;
 }
+/* ТУТ СТРАНИЧКА ПРОФИЛЯ registration_page_2*/
