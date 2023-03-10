@@ -610,7 +610,16 @@ position: absolute;
 	color: #000000;
 }
 /* наши проекты our projects*/
-.our_projects_photos{
+
+.our_projects_photo{
+    position: absolute;
+    width: 1200px;
+    height: 405px;
+    left: 327px;
+    top: 115px;
+}
+
+.our_projects_photos_0{
 	position: absolute;
 	width: 1200px;
 	height: 405px;
@@ -628,4 +637,102 @@ position: absolute;
     font-size: 48px;
     line-height: 70px;
     color: #FFFFFF;
+}
+
+.our_group_1{
+	position: absolute;
+	width: 1200px;
+	height: 500px;
+	left: 200px;
+	top: 540px;
+}
+
+.stoka_photo_1{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 75px;
+	position: absolute;
+	left: -0.17%;
+	right: -0.17%;
+	top: 0.55%;
+	bottom: 9.45%;
+	border-radius: 25px;
+}
+
+.str1_photo1{
+	width: 350px;
+	height: 450px;
+	border-radius: 25px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.str1_photo2{
+	width: 350px;
+	height: 450px;
+	border-radius: 25px;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.str1_photo3{
+	width: 350px;
+	height: 450px;
+	border-radius: 25px;
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+}
+.stroka_name_1 {
+	position: absolute;
+	left: 6.58%;
+	right: 6.67%;
+	top: 92.71%;
+	bottom: 0%;
+}
+
+.str_name_1{
+	position: absolute;
+	left: 6.58%;
+	right: 77.5%;
+	top: 92.71%;
+	bottom: 0%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #070D0F;
+}
+
+.str_name_2{
+	position: absolute;
+	left: 42%;
+	right: 42.08%;
+	top: 92.71%;
+	bottom: 0%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #070D0F;
+}
+
+.str_name_3{
+	position: absolute;
+	left: 77.42%;
+	right: 6.67%;
+	top: 92.71%;
+	bottom: 0%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #070D0F;
 }
