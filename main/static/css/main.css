@@ -609,3 +609,23 @@ position: absolute;
 	text-align: center;
 	color: #000000;
 }
+/* наши проекты our projects*/
+.our_projects_photos{
+	position: absolute;
+	width: 1200px;
+	height: 405px;
+}
+
+.our_projects_text{
+    position: absolute;
+    width: 285px;
+    height: 70px;
+    left: 470px;
+    top: 170px;
+    font-family: 'Amatica SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
