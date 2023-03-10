@@ -529,3 +529,83 @@ input.namer-tel-botom-prof{
 }
 /* О НАС about us*/
 
+.about_us_photo{
+position: absolute;
+	width: 1200px;
+	height: 405px;
+	left: 200px;
+	top: 113px;
+}
+.about_us_photos{
+	position: absolute;
+	width: 1200px;
+	height: 405px;
+}
+
+.about_us_text {
+	position: absolute;
+	width: 150px;
+	height: 70px;
+	left: 528px;
+	top: 170px;
+	font-family: 'Amatica SC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 70px;
+	color: #FFFFFF;
+}
+
+.abour_text_0{
+    position: absolute;
+    width: 980px;
+    height: 80px;
+    left: 353px;
+    top: 650px;
+}
+
+.abour_name{
+	width: 200px;
+	height: 60px;
+	font-family: 'Castoro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.abour_text_1{
+	position: absolute;
+	width: 700px;
+	height: 70px;
+	font-family: 'Karla';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	padding: 1%;
+	line-height: 23px;
+	color: #000000;
+}
+
+.abour_text_00{
+	position: absolute;
+	width: 1000px;
+	height: 140px;
+	left: 300px;
+	top: 916px;
+}
+
+.abour_text_2{
+	position: absolute;
+	width: 1000px;
+	height: 140px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #000000;
+}
