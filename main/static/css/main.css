@@ -640,11 +640,11 @@ position: absolute;
 }
 
 .our_group_1{
-	position: absolute;
-	width: 1200px;
-	height: 500px;
-	left: 200px;
-	top: 540px;
+    position: absolute;
+    width: 1200px;
+    height: 500px;
+    left: 328px;
+    top: 540px;
 }
 
 .stoka_photo_1{
@@ -688,11 +688,12 @@ position: absolute;
 	flex-grow: 0;
 }
 .stroka_name_1 {
-	position: absolute;
-	left: 6.58%;
-	right: 6.67%;
-	top: 92.71%;
-	bottom: 0%;
+    position: relative;
+    width: 1200px;
+    height: 30px;
+    top: 460px;
+    display: flex;
+
 }
 
 .str_name_1{
@@ -735,4 +736,12 @@ position: absolute;
 	font-size: 24px;
 	line-height: 29px;
 	color: #070D0F;
+}
+
+.our_group_2{
+	position: absolute;
+	width: 1196px;
+	height: 500px;
+	left: 328px;
+	top: 1075px;
 }
