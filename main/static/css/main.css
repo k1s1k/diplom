@@ -755,3 +755,135 @@ position: absolute;
 	line-height: 29px;
 	color: #000000;
 }
+/* услуги service*/
+
+.service_glav_blok{
+    position: absolute;
+    width: 1200px;
+    height: 450px;
+    left: 327px;
+    top: 100px;
+}
+.service_glav_photo{
+	position: absolute;
+	width: 1200px;
+	height: 450px;
+}
+
+.service_button{
+	left: 450px;
+	top: 200px;
+	background: rgba(66, 53, 46, 0.83);
+	border-radius: 35px;
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	font-family: 'Andika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 64px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.service_under{
+    position: absolute;
+    width: 1050px;
+    height: 950px;
+    left: 405px;
+    top: 620px;
+
+}
+.service_1{
+	position: absolute;
+	width: 860px;
+	height: 200px;
+}
+.service_2{
+	position: absolute;
+	width: 860px;
+	height: 200px;
+	top: 250px;
+}
+.service_3{
+	position: absolute;
+	width: 860px;
+	height: 200px;
+	top: 500px;
+}
+.service_4{
+	position: absolute;
+	width: 860px;
+	height: 200px;
+	top: 750px;
+}
+
+.service_1_glav_text{
+	position: absolute;
+	left: 25.49%;
+	right: 60.55%;
+	top: 5%;
+	bottom: 80.5%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #070D0F;
+}
+
+.service_2_glav_text{
+	position: absolute;
+	left: 25.49%;
+	right: 60.44%;
+	top: 5%;
+	bottom: 80.5%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #070D0F;
+}
+
+.service_3_glav_text{
+	position: absolute;
+	left: 25.49%;
+	right: 42.53%;
+	top: 5%;
+	bottom: 80.5%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #070D0F;
+}
+
+.service_4_glav_text{
+	position: absolute;
+	left: 25.49%;
+	right: 64.51%;
+	top: 5%;
+	bottom: 80.5%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #070D0F;
+}
