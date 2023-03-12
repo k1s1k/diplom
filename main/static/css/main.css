@@ -918,3 +918,162 @@ position: absolute;
     color: #000000;
 }
 
+/*  корзина с товаром backet */
+
+.basket{
+	position: absolute;
+	width: 1200px;
+	height: 450px;
+	left: 327px;
+	top: 90px;
+}
+
+.button_basket{
+    position: absolute;
+    width: 328.09px;
+    height: 60px;
+    left: calc(50% - 328.09px/2 - 0.5px);
+    top: 193px;
+    background: rgba(66, 53, 46, 0.83);
+    border-radius: 35px;
+    position: absolute;
+    width: 312.78px;
+    height: 64px;
+    font-family: 'Andika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.basket_hedet_menu{
+    display: flex;
+    position: absolute;
+    width: 660px;
+    height: 30px;
+    left: 866px;
+    top: 590px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket_text{
+    display: flex;
+    position: relative;
+    width: 180px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #000000;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.tovar_basket{
+    position: absolute;
+    width: 1200px;
+    height: 500px;
+    left: 327px;
+    top: 650px;
+}
+
+.basket_tovar_name{
+	position: absolute;
+	left: 32.79%;
+	right: 44.26%;
+	top: 0.8%;
+	bottom: 87.6%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: uppercase;
+	color: #070D0F;
+}
+
+.basket_tovar_opisanie{
+	position: absolute;
+	width: 225px;
+	left: 32.64%;
+	right: 0%;
+	top: 21.6%;
+	bottom: 55.2%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #070D0F;
+}
+
+.basket_tovar_size{
+	position: absolute;
+	left: 32.64%;
+	right: 52.82%;
+	top: 94%;
+	bottom: 0%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+	text-transform: capitalize;
+	color: #070D0F;
+}
+
+.backet_kol-vo{
+	position: absolute;
+	width: 62px;
+	height: 55px;
+	left: 850px;
+	top: 225px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.backet_sum{
+	position: absolute;
+	width: 80px;
+	height: 39px;
+	left: 1125px;
+	top: 225px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.itogo{
+	position: absolute;
+	height: 40px;
+	width: 1200px;
+	top: 550px;
+	left: 70px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-size: 32px;
+	line-height: 39px;
+	text-transform: uppercase;
+	color: #000000;
+}
