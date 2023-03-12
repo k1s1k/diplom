@@ -1077,6 +1077,30 @@ position: absolute;
 	text-transform: uppercase;
 	color: #000000;
 }
+
+.bu_itogo{
+	flex-direction: row;
+	justify-content: center;
+	padding: 10px 27px;
+	gap: 10px;
+	position: absolute;
+	top: 0px;
+    left: 980px;
+	background: rgba(66, 53, 46, 0.83);
+	border-radius: 25px;
+	width: 220px;
+	height: 40px;
+
+	font-family: 'Andika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	display: flex;
+	align-items: flex-end;
+	text-transform: uppercase;
+	color: #000000;
+	flex: none;
+}
 /*service basket blok*/
 
 .service_bacsket{
@@ -1087,10 +1111,89 @@ position: absolute;
 	top: 685px;
 }
 
-.input_photo{
+/*.input_photo{*/
+/*	box-sizing: border-box;*/
+/*	position: absolute;*/
+/*	width: 300px;*/
+/*	height: 250px;*/
+/*	border: 1px solid #070D0F;*/
+/*}*/
+
+.bs1{
+	position: absolute;
+	width: 860px;
+	height: 200px;
+}
+
+.bs2{
+	width: 480px;
+	height: 295px;
+	position: absolute;
+	top: 210px;
+}
+.bs2_text{
+	position: absolute;
+	width: 407px;
+	height: 29px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.bs2_input{
 	box-sizing: border-box;
 	position: absolute;
-	width: 300px;
-	height: 250px;
+	width: 310px;
+	height: 240px;
+	top: 40px;
 	border: 1px solid #070D0F;
+	font-size: medium;
+}
+
+.strela{
+	position: absolute;
+	width: 56px;
+	height: 95px;
+	top: 20px;
+	left: 400px;
+}
+
+.bs3{
+	position: absolute;
+	width: 820px;
+	height: 320px;
+	top: 515px;
+}
+
+.bs2_textarea{
+	position: absolute;
+	width: 818px;
+	height: 191px;
+	top: 40px;
+	border-radius: 25px;
+	border: 1px solid #070D0F;
+}
+
+.bs3_text{
+	position: absolute;
+	width: 801px;
+	height: 60px;
+	top: 250px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.bsbu{
+	width: 1200px;
+	position: absolute;
+	top: 300px;
 }
