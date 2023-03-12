@@ -1077,3 +1077,20 @@ position: absolute;
 	text-transform: uppercase;
 	color: #000000;
 }
+/*service basket blok*/
+
+.service_bacsket{
+	position: absolute;
+	width: 1200px;
+	height: 1000px;
+	left: 327px;
+	top: 685px;
+}
+
+.input_photo{
+	box-sizing: border-box;
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	border: 1px solid #070D0F;
+}
