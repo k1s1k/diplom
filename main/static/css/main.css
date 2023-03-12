@@ -874,6 +874,7 @@ position: absolute;
 .service_4_glav_text{
 	position: absolute;
 	left: 25.49%;
+	width: 100px;
 	right: 64.51%;
 	top: 5%;
 	bottom: 80.5%;
@@ -887,3 +888,33 @@ position: absolute;
 	text-transform: uppercase;
 	color: #070D0F;
 }
+
+.service_opisanie{
+	position: absolute;
+	left: 25.49%;
+	right: 0%;
+	top: 28.5%;
+	bottom: 0%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #070D0F;
+}
+
+.service_button_zakaz{
+    position: absolute;
+    width: 131px;
+    height: 58px;
+    left: 1165px;
+    top: 71px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
