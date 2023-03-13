@@ -1330,7 +1330,32 @@ position: absolute;
 }
 .card_tovara_conteiner:hover{
 	background: #9C9793;
-	width: 370px;
-	height: 470px;
 	transform: scale(1.1);
+}
+
+.mpt_tovar_img{
+	position: absolute;
+	left: 19.66%;
+	right: 19.66%;
+	top: 6.25%;
+	bottom: 26.79%;
+	border-radius: 25px;
+}
+
+.mpt_tovar_text{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+	position: absolute;
+	left: 19.66%;
+	right: 32.04%;
+	top: 75%;
+	bottom: 5.36%;
+	border-radius: 25px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
 }
