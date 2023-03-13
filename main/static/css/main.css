@@ -1200,3 +1200,88 @@ position: absolute;
 	position: absolute;
 	top: 300px;
 }
+/* men_katalog_str1*/
+
+.mk_str1_glav_photo{
+	position: absolute;
+	width: 1200px;
+	height: 450px;
+	left: 321px;
+	top: 90px;
+}
+
+.mk_str1_button_glav_photo{
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	left: calc(50% - 300px/2 - 4px);
+	top: 195px;
+	background: rgba(66, 53, 46, 0.83);
+	border-radius: 35px;
+	font-family: 'Andika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 64px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.mk_str1_tovar_group {
+	position: absolute;
+	width: 1200px;
+	height: 685px;
+	left: 327px;
+	top: 585px;
+}
+
+.mk_str1_tovar_group_top {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 75px;
+	position: absolute;
+	width: 1200px;
+	height: 315px;
+}
+
+.mk_str1_tovar{
+	width: 350px;
+	height: 315px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	flex: none;
+	flex-grow: 0;
+}
+.mk_str1_tovar_name{
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	left: calc(50% - 300px/2 - 4px);
+	top: 195px;
+	background: rgba(66, 53, 46, 0.83);
+	border-radius: 35px;
+	font-family: 'Andika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 64px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.mk_str1_tovar_group_bot{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 75px;
+	position: absolute;
+	width: 1200px;
+	height: 315px;
+	bottom: 0px;
+}
