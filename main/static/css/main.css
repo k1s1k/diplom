@@ -1200,9 +1200,9 @@ position: absolute;
 	position: absolute;
 	top: 300px;
 }
-/* men_katalog_str1*/
+/* men_katalog_str1 католог для мужчин и женщин корчое тут пошла оптимизация и дальше вся цсс будет для двух разделов men и women*/
 
-.mk_str1_glav_photo{
+.wmk_str1_glav_photo{
 	position: absolute;
 	width: 1200px;
 	height: 450px;
@@ -1210,7 +1210,7 @@ position: absolute;
 	top: 90px;
 }
 
-.mk_str1_button_glav_photo{
+.wmk_str1_button_glav_photo{
 	position: absolute;
 	width: 300px;
 	height: 60px;
@@ -1228,7 +1228,7 @@ position: absolute;
 	color: #FFFFFF;
 }
 
-.mk_str1_tovar_group {
+.wmk_str1_tovar_group {
 	position: absolute;
 	width: 1200px;
 	height: 685px;
@@ -1236,7 +1236,7 @@ position: absolute;
 	top: 585px;
 }
 
-.mk_str1_tovar_group_top {
+.wmk_str1_tovar_group_top {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -1248,14 +1248,14 @@ position: absolute;
 	height: 315px;
 }
 
-.mk_str1_tovar{
+.wmk_str1_tovar{
 	width: 350px;
 	height: 315px;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	flex: none;
 	flex-grow: 0;
 }
-.mk_str1_tovar_name{
+.wmk_str1_tovar_name{
 	position: absolute;
 	width: 300px;
 	height: 60px;
@@ -1273,7 +1273,7 @@ position: absolute;
 	color: #FFFFFF;
 }
 
-.mk_str1_tovar_group_bot{
+.wmk_str1_tovar_group_bot{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -1287,7 +1287,7 @@ position: absolute;
 }
 /* тут корчое вторая страница это конда мы кликнули на товар и вот он типо открылся men_plitka_tovara_str2*/
 
-.mpt_tovars{
+.wmpt_tovars{
 	position: absolute;
 	width: 1200px;
 	height: 1000px;
@@ -1295,7 +1295,7 @@ position: absolute;
 	top: 570px;
 }
 
-.mpt_tovars_str_top{
+.wmpt_tovars_str_top{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -1306,7 +1306,7 @@ position: absolute;
 	width: 1200px;
 	height: 450px;
 }
-.mpt_tovars_str_bot{
+.wmpt_tovars_str_bot{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -1333,7 +1333,7 @@ position: absolute;
 	transform: scale(1.1);
 }
 
-.mpt_tovar_img{
+.wmpt_tovar_img{
 	position: absolute;
 	left: 19.66%;
 	right: 19.66%;
@@ -1342,7 +1342,7 @@ position: absolute;
 	border-radius: 25px;
 }
 
-.mpt_tovar_text{
+.wmpt_tovar_text{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -1361,24 +1361,24 @@ position: absolute;
 }
 /*Открытие одного из товаров*/
 
-.mot_tovar{
+.wmot_tovar{
 	position: absolute;
 	width: 1200px;
 	height: 750px;
 	left: 328px;
 	top: 600px;
 }
-.mot_tovar_case{
+.wmot_tovar_case{
 	position: absolute;
 	width: 1200px;
 	height: 500px;
 }
-.mot_tovar_photo{
+.wmot_tovar_photo{
 	position: absolute;
 	border-radius: 25px;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.mpt_tovar_text_name{
+.wmpt_tovar_text_name{
 	position: absolute;
 	left: 32.79%;
 	right: 44.26%;
@@ -1392,7 +1392,7 @@ position: absolute;
 	text-transform: uppercase;
 	color: #070D0F;
 }
-.mpt_tovar_text_opisanie{
+.wmpt_tovar_text_opisanie{
 	position: absolute;
 	left: 32.64%;
 	right: 0%;
@@ -1408,7 +1408,7 @@ position: absolute;
 	text-transform: uppercase;
 	color: #070D0F;
 }
-.mpt_tovar_text_size_money{
+.wmpt_tovar_text_size_money{
 	position: absolute;
 	left: 32.73%;
 	right: 55.09%;
@@ -1422,7 +1422,7 @@ position: absolute;
 	text-transform: capitalize;
 	color: #070D0F;
 }
-.mpt_tovar_button_bu{
+.wmpt_tovar_button_bu{
     position: absolute;
     width: 250px;
     height: 40px;
@@ -1440,7 +1440,7 @@ position: absolute;
     color: #000000;
     justify-content: space-around;
 }
-.mpt_tovar_photo_gallery{
+.wmpt_tovar_photo_gallery{
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
