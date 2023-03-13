@@ -1174,8 +1174,11 @@ position: absolute;
 	width: 818px;
 	height: 191px;
 	top: 40px;
-	border-radius: 25px;
+	border-radius: 5px;
 	border: 1px solid #070D0F;
+	font-family: 'Inter';
+	font-style: normal;
+	font-size: 25px;
 }
 
 .bs3_text{
