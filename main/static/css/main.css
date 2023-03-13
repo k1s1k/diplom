@@ -1285,3 +1285,52 @@ position: absolute;
 	height: 315px;
 	bottom: 0px;
 }
+/* тут корчое вторая страница это конда мы кликнули на товар и вот он типо открылся men_plitka_tovara_str2*/
+
+.mpt_tovars{
+	position: absolute;
+	width: 1200px;
+	height: 1000px;
+	left: 327px;
+	top: 570px;
+}
+
+.mpt_tovars_str_top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+	gap: 75px;
+	position: absolute;
+	width: 1200px;
+	height: 450px;
+}
+.mpt_tovars_str_bot{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+	gap: 75px;
+	position: absolute;
+	width: 1200px;
+	height: 450px;
+	bottom: 0px;
+}
+
+.card_tovara_conteiner{
+	width: 350px;
+	height: 450px;
+	flex: none;
+	flex-grow: 0;
+	background: rgba(54, 50, 49, 0.15);
+	border-radius: 25px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.card_tovara_conteiner:hover{
+	background: #9C9793;
+	width: 370px;
+	height: 470px;
+	transform: scale(1.1);
+}
