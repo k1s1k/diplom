@@ -1359,3 +1359,96 @@ position: absolute;
 	font-size: 24px;
 	line-height: 29px;
 }
+/*Открытие одного из товаров*/
+
+.mot_tovar{
+	position: absolute;
+	width: 1200px;
+	height: 750px;
+	left: 328px;
+	top: 600px;
+}
+.mot_tovar_case{
+	position: absolute;
+	width: 1200px;
+	height: 500px;
+}
+.mot_tovar_photo{
+	position: absolute;
+	border-radius: 25px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.mpt_tovar_text_name{
+	position: absolute;
+	left: 32.79%;
+	right: 44.26%;
+	top: 0.8%;
+	bottom: 87.6%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: uppercase;
+	color: #070D0F;
+}
+.mpt_tovar_text_opisanie{
+	position: absolute;
+	left: 32.64%;
+	right: 0%;
+	top: 21.6%;
+	bottom: 55.2%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #070D0F;
+}
+.mpt_tovar_text_size_money{
+	position: absolute;
+	left: 32.73%;
+	right: 55.09%;
+	top: 87%;
+	bottom: 7.2%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: capitalize;
+	color: #070D0F;
+}
+.mpt_tovar_button_bu{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    background: rgba(66, 53, 46, 0.83);
+    border-radius: 35px;
+    right: 0%;
+    bottom: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    justify-content: space-around;
+}
+.mpt_tovar_photo_gallery{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 60px;
+	position: absolute;
+	width: 570px;
+	height: 200px;
+	bottom: 0px;
+	border-radius: 25px;
+}
