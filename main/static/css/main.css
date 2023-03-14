@@ -14,13 +14,13 @@
 	right: 0%;
 	background: #070D0F;
 }
-.heder-photo{
-	height: 75px;
-	width: 190px;
+.heder-logo{
+	height: 70px;
+	width: 160px;
 	position: absolute;
 	left: 2%;
 	right: -6%;
-	top: 12%;
+	top: 14%;
 	bottom: 5%;
 	font-family: 'Castoro';
 	font-style: normal;
@@ -30,7 +30,7 @@
 	text-transform: uppercase;
 	color: #9C9793;
 }
-.heder-text{
+.heder-text-block{
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
@@ -53,7 +53,7 @@
 	color: #FFFFFF;
 }
 
-.heder-photo1{
+.heder-basket-lk{
 	width: 30px;
 	height: 30px;
 }
@@ -65,7 +65,7 @@
 	right: 0;
 	bottom: 0;
 	margin: auto;
-	top: -34.7%;
+	top: -31%;
 }
 .glav-men{
 	position: absolute;
@@ -80,7 +80,7 @@
 	text-align: justify;
 	text-transform: uppercase;
 	font-weight: 800;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 52px;
 	color: white;
 	left: 23vw;
@@ -89,6 +89,10 @@
 	border-radius: 40px;
 	padding: 1% 5%;
 }
+.menam:hover , .women:hover{
+	background: #9C9793;
+	transform: scale(1.2);
+}
 .women{
 	position: absolute;
 	font-family: 'Andika';
@@ -96,9 +100,9 @@
 	text-align: justify;
 	text-transform: uppercase;
 	font-weight: 800;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 52px;
-	color: white;
+	color: #ffffff;
 	left: 57vw;
 	top: 125vh;
 	background: rgba(66, 53, 46, 0.83);
@@ -111,6 +115,7 @@
 	top: 580px;
 	bottom: 0%;
 }
+/* foter здесь пошёл уже футер*/
 .o_nas{
 	position: absolute;
     right: 760px;
