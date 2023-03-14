@@ -478,24 +478,12 @@ input.namer-tel-botom-prof{
 
 /* О НАС about us*/
 
-.about_us_photo{
-position: absolute;
-	width: 1200px;
-	height: 405px;
-	left: 200px;
-	top: 113px;
-}
-.about_us_photos{
-	position: absolute;
-	width: 1200px;
-	height: 405px;
-}
 .about_us_text {
 	position: absolute;
 	width: 150px;
 	height: 70px;
-	left: 528px;
-	top: 170px;
+	left: 856px;
+	top: 300px;
 	font-family: 'Amatica SC';
 	font-style: normal;
 	font-weight: 400;
@@ -507,7 +495,7 @@ position: absolute;
     position: absolute;
     width: 980px;
     height: 80px;
-    left: 353px;
+    left: 437px;
     top: 650px;
 }
 .abour_name{
@@ -537,7 +525,7 @@ position: absolute;
 	position: absolute;
 	width: 1000px;
 	height: 140px;
-	left: 300px;
+	left: 437px;
 	top: 916px;
 }
 .abour_text_2{
