@@ -72,9 +72,6 @@
 }
 
 .glav-photo_text {
-    position: absolute;
-    width: 328.09px;
-    height: 60px;
     left: calc(50% - 328.09px/2 - 0.5px);
     top: 193px;
     background: rgba(66, 53, 46, 0.83);
@@ -85,7 +82,7 @@
     font-family: 'Andika';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 28px;
     line-height: 64px;
     text-align: center;
     text-transform: uppercase;
@@ -558,11 +555,7 @@ input.namer-tel-botom-prof{
     left: 327px;
     top: 115px;
 }
-.our_projects_photos_0{
-	position: absolute;
-	width: 1200px;
-	height: 405px;
-}
+
 .our_projects_text{
     position: absolute;
     width: 285px;
@@ -731,37 +724,6 @@ input.namer-tel-botom-prof{
 	color: #000000;
 }
 /* услуги service*/
-
-.service_glav_blok{
-    position: absolute;
-    width: 1200px;
-    height: 450px;
-    left: 327px;
-    top: 100px;
-}
-.service_glav_photo{
-	position: absolute;
-	width: 1200px;
-	height: 450px;
-}
-
-.service_button{
-	left: 450px;
-	top: 200px;
-	background: rgba(66, 53, 46, 0.83);
-	border-radius: 35px;
-	position: absolute;
-	width: 300px;
-	height: 65px;
-	font-family: 'Andika';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 40px;
-	line-height: 64px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #FFFFFF;
-}
 
 .service_under{
     position: absolute;
@@ -1085,14 +1047,6 @@ input.namer-tel-botom-prof{
 	left: 327px;
 	top: 685px;
 }
-
-/*.input_photo{*/
-/*	box-sizing: border-box;*/
-/*	position: absolute;*/
-/*	width: 300px;*/
-/*	height: 250px;*/
-/*	border: 1px solid #070D0F;*/
-/*}*/
 
 .bs1{
 	position: absolute;
