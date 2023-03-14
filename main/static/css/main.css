@@ -15,12 +15,12 @@
 	background: #070D0F;
 }
 .heder-photo{
-	height: 80px;
-	width: 200px;
+	height: 75px;
+	width: 190px;
 	position: absolute;
 	left: 2%;
 	right: -6%;
-	top: 5%;
+	top: 12%;
 	bottom: 5%;
 	font-family: 'Castoro';
 	font-style: normal;
@@ -52,32 +52,7 @@
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
-/*.heder-text2{*/
-/*	width: 110px;*/
-/*	height: 30px;*/
-/*	font-family: 'Andika';*/
-/*	font-style: normal;*/
-/*	font-weight: 400;*/
-/*	font-size: 20px;*/
-/*	line-height: 32px;*/
-/*	text-transform: uppercase;*/
-/*	color: #FFFFFF;*/
-/*}*/
-/*.heder-text3{*/
-/*	width: 80px;*/
-/*	height: 30px;*/
-/*	font-family: 'Andika';*/
-/*	font-style: normal;*/
-/*	font-weight: 400;*/
-/*	font-size: 20px;*/
-/*	line-height: 32px;*/
-/*	text-transform: uppercase;*/
-/*	color: #FFFFFF;*/
-/*}*/
-/*.heder-photo1{*/
-/*	width: 30px;*/
-/*	height: 30px;*/
-/*}*/
+
 .heder-photo1{
 	width: 30px;
 	height: 30px;
@@ -105,7 +80,7 @@
 	text-align: justify;
 	text-transform: uppercase;
 	font-weight: 800;
-	font-size: 32px;
+	font-size: 24px;
 	line-height: 52px;
 	color: white;
 	left: 23vw;
@@ -121,7 +96,7 @@
 	text-align: justify;
 	text-transform: uppercase;
 	font-weight: 800;
-	font-size: 32px;
+	font-size: 24px;
 	line-height: 52px;
 	color: white;
 	left: 57vw;
