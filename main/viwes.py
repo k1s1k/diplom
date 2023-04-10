@@ -11,16 +11,16 @@ from fastapi.responses import HTMLResponse, JSONResponse
 
 @main.get("/", response_class=HTMLResponse)
 async def index(request: Request):
-    return templates.TemplateResponse("index.html", context={"request": request})
+    return templates.TemplateResponse("main.html", context={"request": request, "TEST":"hekjfa"})
 
-@main.get("/", response_class=HTMLResponse)
-async def index(request: Request):
-    return templates.TemplateResponse("women_katalog_str1.html", context={"request": request})
+@main.get("/women_1", response_class=HTMLResponse)
+async def women_katalog(request: Request):
+    return templates.TemplateResponse("women_1.html", context={"request": request})
 
-@main.get("/", response_class=HTMLResponse)
-async def index(request: Request):
-    return templates.TemplateResponse("men_katalog_str1.html", context={"request": request})
+@main.get("/women_2", response_class=HTMLResponse)
+async def women_2(request: Request):
+    return templates.TemplateResponse("women_2.html", context={"request": request})
 
-@main.get("/", response_class=HTMLResponse)
-async def index(request: Request):
-    return templates.TemplateResponse("services.html", context={"request": request})
+# @main.get("/", response_class=HTMLResponse)
+# async def index(request: Request):
+#     return templates.TemplateResponse("services.html", context={"request": request})
