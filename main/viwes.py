@@ -16,3 +16,11 @@ async def index(request: Request):
 @main.get("/", response_class=HTMLResponse)
 async def index(request: Request):
     return templates.TemplateResponse("women_katalog_str1.html", context={"request": request})
+
+@main.get("/", response_class=HTMLResponse)
+async def index(request: Request):
+    return templates.TemplateResponse("men_katalog_str1.html", context={"request": request})
+
+@main.get("/", response_class=HTMLResponse)
+async def index(request: Request):
+    return templates.TemplateResponse("services.html", context={"request": request})
