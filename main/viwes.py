@@ -12,3 +12,7 @@ from fastapi.responses import HTMLResponse, JSONResponse
 @main.get("/", response_class=HTMLResponse)
 async def index(request: Request):
     return templates.TemplateResponse("index.html", context={"request": request})
+
+@main.get("/", response_class=HTMLResponse)
+async def index(request: Request):
+    return templates.TemplateResponse("women_katalog_str1.html", context={"request": request})
