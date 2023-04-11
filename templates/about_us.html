@@ -1,22 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-
-<head>
-	<title>Spike'shops</title>
-	<link rel="stylesheet" type="text/css" href="../static/css/main.css">
-<!--	<script src="../static/js"></script>-->
-</head>
-
-<body>
-	<div class="heder"> <img class="heder-photo"src="../static/img/logo.png"></div>
-	<div class="heder-text-block">
-		<a  href="men_katalog_str1.html" class="heder-text_1">мужчинам</a>
-		<a  href="women_katalog_str1.html" class="heder-text_1">женщинам</a>
-		<a  href="services.html" class="heder-text_1">услуги</a>
-		<a  href="profil.html" class="heder-profil"><img class="heder-basket-lk"src="../static/img/профиль.png"></a>
-		<a  href="basket.html" class="heder-basket"><img class="heder-basket-lk"src="../static/img/корзина.png"></a>
-	</div>
+{% extends "index.html" %} {# на какую страницу мы переходим (какой шаблон будем вставлять) #}
+{% block content %} {# что будет в контенте   #}
 	<div class="glav-photo">
 		<img src="../static/img/about_us.png">
 		<a class="glav-photo_text">О нас</a>
@@ -33,17 +16,5 @@
 			высоким качеством. Кроме того брэнд изображает и воплащает в жизнь ваши
 			творческие задумки.</a>
 	</div>
-</body>
+{% endblock %}
 
-<footer>
-	<div class="footeer">
-		<a href="about_us.html" class="o_nas">О нас</a>
-		<a href="our_projects.html" class="nsshi_proekti">Наши проеты</a>
-		<a href="#" class="polit">политика конфедациальности</a>
-		<a href="#"> <img class="photo-tg" src="../static/img/tg.png"> </a>
-		<a href="#"> <img class="photo-inst" src="../static/img/insta-2.png"> </a>
-		<a href="#"> <img class="photo-vk" src="../static/img/vk.png"> </a>
-	</div>
-</footer>
-
-</html>

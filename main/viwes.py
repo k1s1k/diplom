@@ -21,6 +21,30 @@ async def women_katalog(request: Request):
 async def women_2(request: Request):
     return templates.TemplateResponse("women_2.html", context={"request": request})
 
-# @main.get("/", response_class=HTMLResponse)
-# async def index(request: Request):
-#     return templates.TemplateResponse("services.html", context={"request": request})
+@main.get ("/women_3", response_class=HTMLResponse)
+async def women_3(request: Request):
+    return  templates.TemplateResponse("women_3.html", context={"request": request})
+
+@main.get("/men_1", response_class=HTMLResponse)
+async def men_1(request: Request):
+    return templates.TemplateResponse("men_1.html", context={"request": request})
+
+@main.get("/men_2", response_class=HTMLResponse)
+async def men_2(request: Request):
+    return templates.TemplateResponse("men_2.html", context={"request": request})
+
+@main.get("/men_3", response_class=HTMLResponse)
+async def men_3(request: Request):
+    return templates.TemplateResponse("men_3.html", context={"request": request})
+
+@main.get("/about_us", response_class=HTMLResponse)
+async def about_us(request: Request):
+    return templates.TemplateResponse("about_us.html", context={"request": request})
+
+@main.get("/our_projects", response_class=HTMLResponse)
+async def our_projects_1(request: Request):
+    return templates.TemplateResponse("our_projects.html", context={"request": request})
+
+@main.get("/our_projects_2", response_class=HTMLResponse)
+async def our_projects_2(request: Request):
+    return templates.TemplateResponse("our_projects_2.html", context={"request": request})
