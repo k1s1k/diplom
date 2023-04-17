@@ -48,3 +48,10 @@ async def our_projects_1(request: Request):
 @main.get("/our_projects_2", response_class=HTMLResponse)
 async def our_projects_2(request: Request):
     return templates.TemplateResponse("our_projects_2.html", context={"request": request})
+@main.get("/services", response_class=HTMLResponse)
+async def services(request: Request):
+    return templates.TemplateResponse("services.html", context={"request": request})
+
+@main.get("/registration_page", response_class=HTMLResponse)
+async def registration_page(request: Request):
+    return templates.TemplateResponse("registration_page.html", context={"request": request})
