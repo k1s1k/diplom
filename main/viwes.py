@@ -52,6 +52,14 @@ async def our_projects_2(request: Request):
 async def services(request: Request):
     return templates.TemplateResponse("services.html", context={"request": request})
 
-@main.get("/registration_page", response_class=HTMLResponse)
-async def registration_page(request: Request):
-    return templates.TemplateResponse("registration_page.html", context={"request": request})
+@main.get("/log_account", response_class=HTMLResponse)
+async def log_account(request: Request):
+    return templates.TemplateResponse("log_account.html", context={"request": request})
+
+@main.get("/registr_page", response_class=HTMLResponse)
+async def registr_page(request: Request):
+    return templates.TemplateResponse("registr_page.html", context={"request": request})
+
+@main.get("/profil", response_class=HTMLResponse)
+async def profil(request: Request):
+    return templates.TemplateResponse("profil.html", context={"request": request})
