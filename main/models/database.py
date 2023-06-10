@@ -6,6 +6,11 @@ from sqlalchemy.orm.scoping import scoped_session
 import hashlib
 # import main.config as config
 #
+def hash_password(password: str) -> str:
+    h = hashlib.new('sha256')
+    h.update(password.encode('utf-8'))
+    return h.hexdigest()
+
 Base = declarative_base()
 
 class Roles(Base):
@@ -23,6 +28,9 @@ class Users(Base):
     name = Column(String(length=250), nullable=False)
     gender = Column(Boolean, default=False)
     role_id = Column(BigInteger, ForeignKey(Roles.id), nullable=False)
+
+    def verify_password(self, password):
+        return self.password == hash_password(password)
 
 class Catalogs(Base):
     __tablename__ = 'Catalogs'
@@ -88,14 +96,28 @@ class Attachmeants(Base):
     path = Column(String(length=250), nullable=False)
     delete = Column(Boolean, default=False)
 
+engine = create_engine(
+    f'postgresql+psycopg2://postgres'
+    f':root'
+    f'@localhost'
+    f'/spikeshops',
+    echo=False,
+    pool_recycle=300,
+    query_cache_size=0,
+    pool_pre_ping=True,
+    client_encoding="utf8",
+    pool_size=10,
+    max_overflow=2,
+    pool_use_lifo=True
+)
 
+Base.metadata.create_all(engine)
+Session = scoped_session(sessionmaker())
+Session.configure(bind=engine)
 
 
 #
-# def hash_password(password: str) -> str:
-#     h = hashlib.new('sha256')
-#     h.update(password.encode('utf-8'))
-#     return h.hexdigest()
+
 #
 #
 # Base = declarative_base()
@@ -187,24 +209,7 @@ class Attachmeants(Base):
 #     music_id = Column(BigInteger, ForeignKey(Musics.id), nullable=False)
 #
 #
-# engine = create_engine(
-#     f'postgresql+psycopg2://{config.DATABASE_USER}'
-#     f':{config.DATABASE_PASSWORD}'
-#     f'@{config.DATABASE_IP}'
-#     f'/{config.DATABASE_NAME}',
-#     echo=False,
-#     pool_recycle=300,
-#     query_cache_size=0,
-#     pool_pre_ping=True,
-#     client_encoding="utf8",
-#     pool_size=10,
-#     max_overflow=2,
-#     pool_use_lifo=True
-# )
-#
-# Base.metadata.create_all(engine)
-# Session = scoped_session(sessionmaker())
-# Session.configure(bind=engine)
+
 # Footer
 # © 2023 GitHub, Inc.
 # Footer navigation

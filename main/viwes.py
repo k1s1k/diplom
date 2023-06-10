@@ -7,10 +7,11 @@ from fastapi import Request, status
 from fastapi.exceptions import ValidationError
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import HTMLResponse, JSONResponse
-#from main.models.database import
+from main.models.database import Session
 
 @main.get("/", response_class=HTMLResponse)
 async def index(request: Request):
+    Session()
     return templates.TemplateResponse("main.html", context={"request": request, "TEST":"hekjfa"})
 
 @main.get("/women_1", response_class=HTMLResponse)
